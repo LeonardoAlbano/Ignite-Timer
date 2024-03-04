@@ -28,7 +28,8 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
     margin: 8px; 
 
     // Aplica a cor de fundo do tema primário (opcional, dependendo da implementação do tema)
-    background-color: ${props => props.theme.primary}; 
+    background-color: ${props => props.theme['green-500']}; 
+    color: ${props => props.theme['white']};
 
     /*
     ${props => {
